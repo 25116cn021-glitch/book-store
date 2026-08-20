@@ -1,111 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>College Bookstore</title>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-
-        .container {
-            width: 90%;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            box-shadow: 0 0 10px gray;
-        }
-
-        .header {
-            text-align: center;
-            background-color: #1e3a8a;
-            color: white;
-            padding: 20px;
-        }
-
-        .logo {
-            font-size: 45px;
-        }
-
-        h1 {
-            margin: 5px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-
-        th, td {
-            border: 1px solid #555;
-            padding: 12px;
-            text-align: center;
-        }
-
-        th {
-            background-color: #2563eb;
-            color: white;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f0f4ff;
-        }
-    </style>
+    <title>Website Layout</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="container">
+<table>
 
-    <div class="header">
-        <div class="logo">📚</div>
-       
-        <p>web site name</p>
-    </div>
+    <tr>
+        <td class="logo">Logo</td>
+        <td class="website" colspan="4">Web Site Name</td>
+    </tr>
 
-    <table>
-        <tr>
-            <th>home</th>
-            <th>login</th>
-            <th>registratiom</th>
-              <th> catologue</th>
-            <th>cart</th>
-          
-        
-        </tr>
+    <tr>
+        <td class="nav">Home</td>
+        <td class="nav">Login</td>
+        <td class="nav">Registration</td>
+        <td class="nav">Catalogue</td>
+        <td class="nav">Cart</td>
+    </tr>
 
-        <tr>
-        
-            <td>CSE</td>
-         
-        </tr>
+    <tr>
+        <td class="courses">
+            CSE<br>
+            ECE<br>
+            EEE<br>
+            CIVIL
+        </td>
 
-        <tr>
-            
-            <td>ECE</td>
-            
-        </tr>
+        <td class="description" colspan="4">
+            Description of the WebSite
+        </td>
+    </tr>
 
-        <tr>
-            
-            <td>Civil</td>
-        
-        </tr>
-
-        <tr>
-          
-            <td>EEE</td>
-            
-        </tr>
-    </table>
-
-</div>
+</table>
 
 </body>
 </html>
