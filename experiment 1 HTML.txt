@@ -1,8 +1,0 @@
-<html>
-<head>
-<tittle> exp1 </tittle>
-</head>
-<body>
-this is the first lab.
-</body>
-</html>
