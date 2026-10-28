@@ -161,3 +161,75 @@ function validateForm() {
     font-weight: 600 !important;
   }
 </style>
+<!-- Form inputs above -->
+<br><br>
+
+<style>
+  /* Fix visibility for all labels and form text */
+  label,
+  .form-group label,
+  form td,
+  form span {
+    color: #111827 !important;
+    background-color: transparent !important;
+    font-weight: 600 !important;
+  }
+
+  /* =========================================================
+     1. CSS Background Repetition in Bookstore Layout
+     ========================================================= */
+  body {
+    background-image: url('https://www.transparenttextures.com/patterns/notebook.png');
+    background-repeat: repeat;
+    background-color: #f7f5f0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .book-shelf-divider {
+    width: 100%;
+    height: 12px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="12"><rect width="14" height="12" fill="%23800020"/><rect x="14" width="2" height="12" fill="%235a0016"/></svg>');
+    background-repeat: repeat-x;
+  }
+
+  .bookstore-hero {
+    background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1200&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  /* =========================================================
+     2. Link States (LVHA Rule)
+     ========================================================= */
+  nav a:link,
+  .book-card a:link {
+    color: #800020;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+  }
+
+  nav a:visited,
+  .book-card a:visited {
+    color: #4b1d3f;
+  }
+
+  nav a:hover,
+  .book-card a:hover {
+    color: #c9184a;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  nav a:active,
+  .book-card a:active {
+    color: #ff758f;
+    transform: scale(0.98);
+  }
+</style>
