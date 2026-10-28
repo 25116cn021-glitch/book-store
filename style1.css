@@ -437,3 +437,59 @@ h1, h2, h3, h4 {
 .auth-note a:hover {
     text-decoration: underline;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: white;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+    ), url('ai.jpg') center/cover fixed no-repeat;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #f5c66b;
+    text-shadow: 2px 2px 5px black;
+}
+
+h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #f5c66b;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+}
+
+a {
+    color: #ffd98e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+button {
+    background: #a66b32;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #70451f;
+}
+
