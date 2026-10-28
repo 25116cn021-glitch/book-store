@@ -82,3 +82,23 @@ function validateForm() {
     return true;
 }
 </script>
+<style>
+  /* Make all labels, placeholder text, and credentials visible */
+  label,
+  form label,
+  .form-group label,
+  form span,
+  form p {
+    color: #111827 !important;            /* High-contrast dark charcoal */
+    background-color: transparent !important; /* Removes any yellow highlight */
+    font-weight: 600 !important;          /* Makes text clearly readable */
+  }
+
+  /* Fix input text so typed letters aren't washed out */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    color: #111827 !important;
+    background-color: #ffffff !important;
+  }
+</style>
